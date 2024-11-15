@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="css_link_html_project.css">
+</head>
+<body>
+    <div id="main">
+        <h1>XYZ COMPANY </h1>
+    <nav >
+        <a id="h1id" href="index.html">Home</a>
+        <a id="h1id" href="aboutus.html">About Us</a>
+        <a id="h1id" href="mob.html">Phones</a>
+        <a id="h1id" href="laptop.html">Laptop</a>
+        <a id="h1id" href="signin.html">Sign In</a>
+        <a id="h1id" href="signUp.html">Sign Up</a>
+        <a id="h1id" href="contact.html">Contact Us</a>
+    </nav>
+    </div>
+<!-- THis is below heading -->
+    <div id="border1">
+        <h3 style="color: red; border-bottom: 2px solid; text-align: center;">
+            Sign In
+        </h3>
+        <form action="backend.php" id="f11id">
+            Username:<br>
+            <input type="Username" name="" id="f13id"><br>
+            Password:<br>
+            <input type="password" name="" id="f13id">
+            <div>
+                <!-- <input type="submit" value="Login Now" id="f12id"> -->
+                <!-- <input type="submit" value="SignUp Now" id="f12id"> -->
+                <input type="button" value="Login Now" id="f12id" onclick="window.location.href='http://127.0.0.1:5500/index.html'">
+                <input type="button" value="SignUp Now" id="f12id" onclick="window.location.href='http://127.0.0.1:5500/signUp.html'">
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 XYZ Company. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

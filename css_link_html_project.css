@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    background-color: rgba(183, 235, 232, 0.527);
+}
+
+#main {
+    background-color: #740938;
+    color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+}
+
+#h1id {
+    margin: 15px;
+    padding: 5px;
+    font-size: 1.3em;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#h1id:hover {
+    color: magenta;
+}
+
+#border1 {
+    border-radius: 20px;
+    background-color: antiquewhite;
+    margin: 60px auto;
+    border: 4px solid;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+#f11id {
+    margin-left: 30px;
+}
+
+#f12id {
+    color: red;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+#f13id {
+    color: red;
+    margin-bottom: 15px;
+    width: 230px;
+}
+
+#border2 {
+    border-radius: 20px;
+    background-color: antiquewhite;
+    margin: 60px auto;
+    border: 4px solid;
+    padding: 10px;
+    height: 530px;
+    width: 300px;
+}
+
+#f21id {
+    margin-left: 30px;
+}
+
+#f22id {
+    color: red;
+    margin-bottom: 15px;
+    width: 230px;
+}
+
+#f23id {
+    color: red;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+#border3 {
+    border-radius: 20px;
+    margin: 15px;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+#abo1id {
+    color: rgb(10, 16, 138);
+    font-size: large;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    background: #ffe0b2;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 15px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    margin-top: 0;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#imgid {
+    height: 300px;
+    width: 250px;
+}
+
+#imgid1 {
+    height: 260px;
+    width: 400px;
+}
+
+/* Hero Banner Styles */
+.hero-banner {
+    text-align: center;
+    padding: 40px;
+    background-color: #FFD700;
+    color: #333;
+}
+
+.hero-banner h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Card Section Styles */
+.card-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f8f8f8;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.discount-tag {
+    position: relative;
+    top: -10px;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.buy-now {
+    text-decoration: none;
+    color: #fff;
+    background-color: #28a745;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Bank Offers Section Styles */
+.bank-offer-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #e8f4f8;
+    color: #007BFF;
+    font-size: 1.2em;
+}
+
+/* Footer Style */
+footer {
+    background: #6159d27b;
+    text-align: center;
+    color: #000000;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
